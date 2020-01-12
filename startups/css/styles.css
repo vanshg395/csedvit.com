@@ -1,0 +1,38 @@
+.main-section {
+  height: 400px;
+  background-color: gray;
+  color: Black;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.main-section img {
+  max-height: 300px;
+}
+
+.scrollview {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollview 30s linear infinite;
+}
+
+@keyframes scrollview {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.scrollview img {
+  padding-right: 50px;
+}
+
+.card {
+  margin: 50px 0px;
+  box-shadow: 1px 1px 10px #333333;
+}
+

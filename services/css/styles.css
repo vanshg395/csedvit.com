@@ -1,0 +1,9 @@
+.card {
+  border: 0;
+}
+
+.card-body i {
+  -webkit-text-fill-color: #404040;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #aaa;
+}

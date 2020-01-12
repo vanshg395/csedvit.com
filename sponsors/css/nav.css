@@ -1,0 +1,21 @@
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {color: red !important; background-color: #333333}
+
+.dropdown .dropdown-menu {
+  margin-top: 0px;
+}
+
+.nav-link:active {border: 0px;}
+
+li a {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+li a:hover {
+  color: red !important;
+}
+
+#active {
+    color: red;
+}

@@ -1,0 +1,11 @@
+.card {
+    border: 0;
+}
+
+.card-title {
+    padding-top: 20px;
+}
+
+.card-body img {
+    border-radius: 50%;
+}
